@@ -1,0 +1,22 @@
+{
+  "name": "rgb2ryb",
+  "description": "Convert colors in JavaScript from rgb to ryb and back",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/bahamas10/node-rgb2ryb.git",
+    "type": "git"
+  },
+  "main": "rgb2ryb.js",
+  "scripts" : {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; echo; done; echo 'Passed'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "bin": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [ "color", "rgb", "ryb" ]
+}
