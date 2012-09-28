@@ -50,7 +50,7 @@ Functions
 
 These functions are available in Node and in the browser
 
-- `color`: an array of rgb,ryb values.  ie `[0, 255, 255]`
+- `color`: an array of rgb/ryb values.  ie `[0, 255, 255]`
 
 ### rgb2ryb(color)
 
