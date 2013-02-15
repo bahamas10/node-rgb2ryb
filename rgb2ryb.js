@@ -14,7 +14,7 @@
  *  * ported to JS
  */
 
-if (module && module.exports) {
+if (typeof exports !== 'undefined') {
   module.exports = rgb2ryb;
   module.exports.rgb2ryb = rgb2ryb;
   module.exports.ryb2rgb = ryb2rgb;
