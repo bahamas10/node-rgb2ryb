@@ -3,6 +3,11 @@ rgb2ryb
 
 Convert colors in JavaScript from rgb to ryb and back
 
+## *DEPRECATION NOTICE*
+
+The calculations presented here are not accurate, this module has been deprecated
+in favor of [ryb2rgb](https://github.com/bahamas10/ryb2rgb) (`npm install ryb2rgb`)
+
 Example
 -------
 
